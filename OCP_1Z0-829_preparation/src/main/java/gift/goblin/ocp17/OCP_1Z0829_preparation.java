@@ -4,6 +4,9 @@
 
 package gift.goblin.ocp17;
 
+import gift.goblin.ocp17.topic.topic1.MathApi;
+import gift.goblin.ocp17.topic.topic1.PrimitivesWrapperMathAPICastings;
+
 /**
  *
  * @author andre
@@ -11,6 +14,12 @@ package gift.goblin.ocp17;
 public class OCP_1Z0829_preparation {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        PrimitivesWrapperMathAPICastings primitivesWrapperMathAPICastings = new PrimitivesWrapperMathAPICastings();
+        primitivesWrapperMathAPICastings.doWork();
+        
+        MathApi mathApi = new MathApi();
+        mathApi.doWork();
+        
+        
     }
 }

@@ -12,6 +12,8 @@ public class PrimitivesWrapperMathAPICastings {
     
     public void doWork() {
         doPrimitives();
+        doWrapperClasses();
+        doUnderscoreFun();
     }
     
     private void doPrimitives() {
@@ -25,6 +27,18 @@ public class PrimitivesWrapperMathAPICastings {
         double d = 9.9;
         char c = 'C';
         
+    }
+    
+    private void doWrapperClasses() {
+        
+        Boolean b = Boolean.valueOf(true);
+        Byte b2 = Byte.valueOf((byte)4);
+        Short s = Short.valueOf((short)10);
+        Integer i = Integer.valueOf(500);
+        Long l = Long.valueOf(9000L);
+        Float f = Float.valueOf(9.99f);
+        Double d = Double.valueOf(8.80);
+        Character c = Character.valueOf('x');
     }
     
     private void doUnderscoreFun() {
