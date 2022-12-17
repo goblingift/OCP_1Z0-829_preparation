@@ -6,6 +6,7 @@ package gift.goblin.ocp17;
 
 import gift.goblin.ocp17.topic.topic1.MathApi;
 import gift.goblin.ocp17.topic.topic1.PrimitivesWrapperMathAPICastings;
+import gift.goblin.ocp17.topic.topic1.StringMethods;
 
 /**
  *
@@ -20,6 +21,8 @@ public class OCP_1Z0829_preparation {
         MathApi mathApi = new MathApi();
         mathApi.doWork();
         
+        StringMethods stringMethods = new StringMethods();
+        stringMethods.doWork();
         
     }
 }
