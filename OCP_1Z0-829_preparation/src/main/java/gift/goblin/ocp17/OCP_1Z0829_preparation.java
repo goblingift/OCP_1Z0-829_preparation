@@ -4,9 +4,11 @@
 
 package gift.goblin.ocp17;
 
+import gift.goblin.ocp17.topic.topic1.DateTimeAPI;
 import gift.goblin.ocp17.topic.topic1.MathApi;
 import gift.goblin.ocp17.topic.topic1.PrimitivesWrapperMathAPICastings;
 import gift.goblin.ocp17.topic.topic1.StringMethods;
+import gift.goblin.ocp17.topic.topic2.SwitchStatements;
 
 /**
  *
@@ -15,14 +17,14 @@ import gift.goblin.ocp17.topic.topic1.StringMethods;
 public class OCP_1Z0829_preparation {
 
     public static void main(String[] args) {
-        PrimitivesWrapperMathAPICastings primitivesWrapperMathAPICastings = new PrimitivesWrapperMathAPICastings();
-        primitivesWrapperMathAPICastings.doWork();
+        // Topic 1
+        new PrimitivesWrapperMathAPICastings().doWork();
+        new MathApi().doWork();
+        new StringMethods().doWork();
+        new DateTimeAPI().doWork();
         
-        MathApi mathApi = new MathApi();
-        mathApi.doWork();
-        
-        StringMethods stringMethods = new StringMethods();
-        stringMethods.doWork();
+        // Topic 2
+        new SwitchStatements().doWork();
         
     }
 }
