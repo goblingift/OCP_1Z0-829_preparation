@@ -9,6 +9,8 @@ import gift.goblin.ocp17.topic.topic1.MathApi;
 import gift.goblin.ocp17.topic.topic1.PrimitivesWrapperMathAPICastings;
 import gift.goblin.ocp17.topic.topic1.StringMethods;
 import gift.goblin.ocp17.topic.topic2.SwitchStatements;
+import gift.goblin.ocp17.topic.topic3.NestedClasses;
+import gift.goblin.ocp17.topic.topic3.RecordsExamples;
 
 /**
  *
@@ -26,5 +28,8 @@ public class OCP_1Z0829_preparation {
         // Topic 2
         new SwitchStatements().doWork();
         
+        // Topic 3
+        new NestedClasses().doWork();
+        new RecordsExamples().doWork();
     }
 }
