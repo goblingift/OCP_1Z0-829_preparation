@@ -9,10 +9,13 @@ import gift.goblin.ocp17.topic.topic1.MathApi;
 import gift.goblin.ocp17.topic.topic1.PrimitivesWrapperMathAPICastings;
 import gift.goblin.ocp17.topic.topic1.StringMethods;
 import gift.goblin.ocp17.topic.topic2.SwitchStatements;
+import gift.goblin.ocp17.topic.topic3.EnumerationExample;
+import gift.goblin.ocp17.topic.topic3.FunctionalInterfaces;
 import gift.goblin.ocp17.topic.topic3.ImmutableObjects;
 import gift.goblin.ocp17.topic.topic3.NestedClasses;
 import gift.goblin.ocp17.topic.topic3.RecordsExamples;
 import gift.goblin.ocp17.topic.topic3.VarargsExample;
+import gift.goblin.ocp17.topic.topic4.ExceptionInheritance;
 
 /**
  *
@@ -35,5 +38,10 @@ public class OCP_1Z0829_preparation {
         new RecordsExamples().doWork();
         new VarargsExample().doWork();
         new ImmutableObjects().doWork();
+        new FunctionalInterfaces().doWork();
+        new EnumerationExample().doWork();
+        
+        // Topic 4
+        new ExceptionInheritance().doWork();
     }
 }
