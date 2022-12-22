@@ -1,5 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+/* 
+ * Copyright (C) 2023 Andre Kessler (https://github.com/goblingift)
+ * All rights reserved
  */
 
 package gift.goblin.ocp17;
@@ -16,6 +17,8 @@ import gift.goblin.ocp17.topic.topic3.NestedClasses;
 import gift.goblin.ocp17.topic.topic3.RecordsExamples;
 import gift.goblin.ocp17.topic.topic3.VarargsExample;
 import gift.goblin.ocp17.topic.topic4.ExceptionInheritance;
+import gift.goblin.ocp17.topic.topic5.ArrayExamples;
+import gift.goblin.ocp17.topic.topic5.CollectionExamples;
 
 /**
  *
@@ -43,5 +46,9 @@ public class OCP_1Z0829_preparation {
         
         // Topic 4
         new ExceptionInheritance().doWork();
+        
+        // Topic 5
+        new ArrayExamples().doWork();
+        new CollectionExamples().doWork();
     }
 }

@@ -1,6 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/* 
+ * Copyright (C) 2023 Andre Kessler (https://github.com/goblingift)
+ * All rights reserved
  */
 package gift.goblin.ocp17.topic.topic4;
 
