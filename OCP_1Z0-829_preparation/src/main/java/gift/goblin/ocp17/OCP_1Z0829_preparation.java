@@ -19,6 +19,9 @@ import gift.goblin.ocp17.topic.topic3.VarargsExample;
 import gift.goblin.ocp17.topic.topic4.ExceptionInheritance;
 import gift.goblin.ocp17.topic.topic5.ArrayExamples;
 import gift.goblin.ocp17.topic.topic5.CollectionExamples;
+import gift.goblin.ocp17.topic.topic5.MapExample;
+import gift.goblin.ocp17.topic.topic5.QueueDequeExamples;
+import gift.goblin.ocp17.topic.topic5.SetExamples;
 
 /**
  *
@@ -50,5 +53,8 @@ public class OCP_1Z0829_preparation {
         // Topic 5
         new ArrayExamples().doWork();
         new CollectionExamples().doWork();
+        new SetExamples().doWork();
+        new QueueDequeExamples().doWork();
+        new MapExample().doWork();
     }
 }
