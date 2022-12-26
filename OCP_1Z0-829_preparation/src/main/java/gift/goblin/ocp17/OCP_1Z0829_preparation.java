@@ -24,6 +24,7 @@ import gift.goblin.ocp17.topic.topic5.QueueDequeExamples;
 import gift.goblin.ocp17.topic.topic5.SetExamples;
 import gift.goblin.ocp17.topic.topic6.JavaOptionalExample;
 import gift.goblin.ocp17.topic.topic6.JavaStreamsExample;
+import gift.goblin.ocp17.topic.topic6.PrimitiveStreams;
 
 /**
  *
@@ -62,6 +63,8 @@ public class OCP_1Z0829_preparation {
         // Topic 6
         new JavaOptionalExample().doWork();
         new JavaStreamsExample().doWork();
+        new PrimitiveStreams().doWork();
+        
         
     }
 }
