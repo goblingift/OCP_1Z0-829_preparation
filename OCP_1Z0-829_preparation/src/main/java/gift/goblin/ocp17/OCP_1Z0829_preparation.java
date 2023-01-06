@@ -25,6 +25,12 @@ import gift.goblin.ocp17.topic.topic5.SetExamples;
 import gift.goblin.ocp17.topic.topic6.JavaOptionalExample;
 import gift.goblin.ocp17.topic.topic6.JavaStreamsExample;
 import gift.goblin.ocp17.topic.topic6.PrimitiveStreams;
+import gift.goblin.ocp17.topic.topic8.ConcurrentCollectionsExample;
+import gift.goblin.ocp17.topic.topic8.ReentrantLockExample;
+import gift.goblin.ocp17.topic.topic8.ThreadExecutor;
+import gift.goblin.ocp17.topic.topic8.ThreadSafety;
+import gift.goblin.ocp17.topic.topic8.ThreadState;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  *
@@ -65,6 +71,11 @@ public class OCP_1Z0829_preparation {
         new JavaStreamsExample().doWork();
         new PrimitiveStreams().doWork();
         
-        
+        // Topic 8
+        new ThreadState().doWork();
+        new ThreadExecutor().doWork();
+        new ThreadSafety().doWork();
+        new ReentrantLockExample().doWork();
+        new ConcurrentCollectionsExample().doWork();
     }
 }
