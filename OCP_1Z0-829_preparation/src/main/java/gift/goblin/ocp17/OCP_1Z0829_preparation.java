@@ -30,6 +30,8 @@ import gift.goblin.ocp17.topic.topic8.ReentrantLockExample;
 import gift.goblin.ocp17.topic.topic8.ThreadExecutor;
 import gift.goblin.ocp17.topic.topic8.ThreadSafety;
 import gift.goblin.ocp17.topic.topic8.ThreadState;
+import gift.goblin.ocp17.topic.topic9.FilePathBasics;
+import gift.goblin.ocp17.topic.topic9.PathAdvanced;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -77,5 +79,9 @@ public class OCP_1Z0829_preparation {
         new ThreadSafety().doWork();
         new ReentrantLockExample().doWork();
         new ConcurrentCollectionsExample().doWork();
+        
+        // Topic 9
+        new FilePathBasics().doWork();
+        new PathAdvanced().doWork();
     }
 }

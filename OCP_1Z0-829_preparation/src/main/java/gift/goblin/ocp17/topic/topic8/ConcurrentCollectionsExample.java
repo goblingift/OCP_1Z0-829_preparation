@@ -14,7 +14,6 @@ public class ConcurrentCollectionsExample {
     public void doWork() {
         doHashMapConcurrentException();
         doConcurrentHashMap();
-        doHashMapToConcurrentMap();
     }
 
     private void doHashMapConcurrentException() {
@@ -40,14 +39,5 @@ public class ConcurrentCollectionsExample {
         }
     }
     
-    private void doHashMapToConcurrentMap() {
-        HashMap<Integer, String> map = new HashMap<>();
-        map.put(1, "Max");
-        map.put(2, "Pete");
-        Map<Integer, String> synchronizedMap = Collections.synchronizedMap(map);
-        for (Integer key : synchronizedMap.keySet()) {
-            synchronizedMap.remove(key);
-        }
-    }
 
 }
