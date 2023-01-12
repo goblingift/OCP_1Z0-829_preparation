@@ -32,6 +32,7 @@ import gift.goblin.ocp17.topic.topic8.ThreadSafety;
 import gift.goblin.ocp17.topic.topic8.ThreadState;
 import gift.goblin.ocp17.topic.topic9.FilePathBasics;
 import gift.goblin.ocp17.topic.topic9.PathAdvanced;
+import gift.goblin.ocp17.topic.topic9.SerializableExample;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -83,5 +84,6 @@ public class OCP_1Z0829_preparation {
         // Topic 9
         new FilePathBasics().doWork();
         new PathAdvanced().doWork();
+        new SerializableExample().doWork();
     }
 }
