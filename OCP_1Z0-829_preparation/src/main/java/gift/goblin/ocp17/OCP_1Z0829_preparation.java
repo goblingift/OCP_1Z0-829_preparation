@@ -9,6 +9,8 @@ import gift.goblin.ocp17.topic.topic1.DateTimeAPI;
 import gift.goblin.ocp17.topic.topic1.MathApi;
 import gift.goblin.ocp17.topic.topic1.PrimitivesWrapperMathAPICastings;
 import gift.goblin.ocp17.topic.topic1.StringMethods;
+import gift.goblin.ocp17.topic.topic11.ResourceBundleExamples;
+import gift.goblin.ocp17.topic.topic11.SimpleLocalizationExamples;
 import gift.goblin.ocp17.topic.topic2.SwitchStatements;
 import gift.goblin.ocp17.topic.topic3.EnumerationExample;
 import gift.goblin.ocp17.topic.topic3.FunctionalInterfaces;
@@ -85,5 +87,11 @@ public class OCP_1Z0829_preparation {
         new FilePathBasics().doWork();
         new PathAdvanced().doWork();
         new SerializableExample().doWork();
+        
+        // Topic 10 examples will be skipped- as they can´t connect to Database
+        
+        // Topic 11
+        new SimpleLocalizationExamples().doWork();
+        new ResourceBundleExamples().doWork();
     }
 }
